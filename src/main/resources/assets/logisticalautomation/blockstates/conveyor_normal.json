@@ -1,0 +1,43 @@
+{
+  "multipart": [
+	{   "when": { "facing": "north" },
+		"apply": { "model": "logisticalautomation:block/conveyor_normal" }
+	},
+	{   "when": { "facing": "east" },
+		"apply": { "model": "logisticalautomation:block/conveyor_normal", "y": 90 }
+	},
+	{   "when": { "facing": "south" },
+		"apply": { "model": "logisticalautomation:block/conveyor_normal", "y": 180 }
+	},
+	{   "when": { "facing": "west" },
+		"apply": { "model": "logisticalautomation:block/conveyor_normal", "y": 270 }
+	},
+	{   "when": { "north": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_wall_front" }
+	},
+	{   "when": { "east": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_wall_right" }
+	},
+	{   "when": { "south": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_wall_back" }
+	},
+	{   "when": { "west": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_wall_left" }
+	},
+	{   "when": { "up": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_pillars" }
+	},
+	{   "when": { "facing": "north", "hopper": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_hopper" }
+	},
+	{   "when": { "facing": "east", "hopper": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_hopper", "y": 90 }
+	},
+	{   "when": { "facing": "south", "hopper": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_hopper", "y": 180 }
+	},
+	{   "when": { "facing": "west", "hopper": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_hopper", "y": 270 }
+	}
+  ]
+}

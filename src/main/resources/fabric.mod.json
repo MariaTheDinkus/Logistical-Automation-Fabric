@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "logisticalautomation",
+  "version": "${version}",
+
+  "name": "Logistical Automation",
+  "description": "A mod focused on using conveyors and other logistical tools to route items and create mob farms.",
+  "authors": [
+    "Zundrel"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/logisticalautomation/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zundrel.logisticalautomation.LogisticalAutomation"
+    ]
+  },
+  "mixins": [
+    ""
+  ],
+
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

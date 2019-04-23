@@ -1,0 +1,7 @@
+{
+	"parent": "logisticalautomation:block/conveyor_ramp_down_normal",
+	"textures": {
+		"0": "logisticalautomation:blocks/conveyor_express",
+		"particle": "logisticalautomation:blocks/conveyor_express"
+	}
+}

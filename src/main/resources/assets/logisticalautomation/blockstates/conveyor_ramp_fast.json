@@ -1,0 +1,28 @@
+{
+  "multipart": [
+	{   "when": { "facing": "north", "down": "false" },
+		"apply": { "model": "logisticalautomation:block/conveyor_ramp_fast" }
+	},
+	{   "when": { "facing": "east", "down": "false" },
+		"apply": { "model": "logisticalautomation:block/conveyor_ramp_fast", "y": 90 }
+	},
+	{   "when": { "facing": "south", "down": "false" },
+		"apply": { "model": "logisticalautomation:block/conveyor_ramp_fast", "y": 180 }
+	},
+	{   "when": { "facing": "west", "down": "false" },
+		"apply": { "model": "logisticalautomation:block/conveyor_ramp_fast", "y": 270 }
+	},
+	{   "when": { "facing": "north", "down": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_ramp_down_fast" }
+	},
+	{   "when": { "facing": "east", "down": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_ramp_down_fast", "y": 90 }
+	},
+	{   "when": { "facing": "south", "down": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_ramp_down_fast", "y": 180 }
+	},
+	{   "when": { "facing": "west", "down": "true" },
+		"apply": { "model": "logisticalautomation:block/conveyor_ramp_down_fast", "y": 270 }
+	}
+  ]
+}

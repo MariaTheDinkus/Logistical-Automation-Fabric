@@ -1,0 +1,11 @@
+{
+  "itemGroup.logisticalautomation.general": "Logistical Automation",
+
+  "block.logisticalautomation.conveyor_normal": "Normal Conveyor",
+  "block.logisticalautomation.conveyor_fast": "Fast Conveyor",
+  "block.logisticalautomation.conveyor_express": "Express Conveyor",
+
+  "block.logisticalautomation.conveyor_ramp_normal": "Normal Conveyor Ramp",
+  "block.logisticalautomation.conveyor_ramp_fast": "Fast Conveyor Ramp",
+  "block.logisticalautomation.conveyor_ramp_express": "Express Conveyor Ramp"
+}
